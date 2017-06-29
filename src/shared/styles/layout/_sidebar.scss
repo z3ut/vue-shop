@@ -1,0 +1,19 @@
+
+.container {
+  text-align: center;
+  max-width: $container-max-width;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  padding: .5em;
+}
+
+.sidebar {
+  float: left;
+  width: $sidebar-width;
+}
+
+.content {
+  float: right;
+  width: calc(100% - #{$sidebar-width});
+}

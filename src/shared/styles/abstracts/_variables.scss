@@ -1,0 +1,46 @@
+
+$primary-color: hsl(0, 0, 20%);
+$secondary-color: hsl(0, 100%, 100%);
+$text-color: hsl(0, 0, 0);
+
+/* header */
+$header-color: $primary-color;
+$header-text-color: $secondary-color;
+$header-link-selected-color: darken($header-color, 20%);
+$header-link-hover-color: darken($header-color, 10%);
+
+/* footer */
+$footer-color: $primary-color;
+$footer-text-color: $secondary-color;
+
+/* category */
+$category-color: $secondary-color;
+$category-text-color: $text-color;
+$category-background-color: lighten($primary-color, 70%);
+$category-hover-color: lighten($primary-color, 40%);
+$category-hover-text-color: $secondary-color;
+$category-selected-color: lighten($primary-color, 20%);
+$category-selected-text-color: $secondary-color;
+
+/* product */
+$products-header-color: lighten($primary-color, 20%);
+$products-header-text-color: $secondary-color;
+
+/* catalog */
+$catalog-item-color: lighten($primary-color, 75%);
+$catalog-item-text-color: $text-color;
+
+/* paginator */
+$paginator-border-color: lighten($primary-color, 60%);
+$paginator-color: $secondary-color;
+$paginator-text-color: $text-color;
+
+$paginator-selected-color: lighten($primary-color, 20%);
+$paginator-selected-text-color: $secondary-color;
+
+$paginator-hover-color: lighten($primary-color, 65%);
+$paginator-hover-text-color: $text-color;
+
+/* layout */
+$container-max-width: 1200px;
+$sidebar-width: 200px;
