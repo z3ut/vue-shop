@@ -118,6 +118,7 @@ img {
 
 .description {
   text-align: justify;
+  white-space: pre;
 }
 
 </style>
