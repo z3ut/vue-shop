@@ -2,7 +2,7 @@
   <router-link :to="'catalog/' + item.name">
     <div class="product">
       <div class="img-wrapper">
-        <img :src="item.imageUrl" alt="door image">
+        <img :src="item.imageSmallUrl" alt="item image">
       </div>
       <div class="description">
         {{item.name}}<br>
