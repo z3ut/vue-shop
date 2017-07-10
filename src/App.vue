@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <shop-header></shop-header>
     <div class="content-holder">
+      <shop-header></shop-header>
       <router-view></router-view>
     </div>
     <shop-footer></shop-footer>
@@ -49,22 +49,17 @@ html, body {
 
 .content-holder {
   min-height: 100%;
-  margin-top: -4em;
   margin-bottom: -2em;
+  background-color: #F2F2F2;
 }
 
-.content-holder:after,
-.content-holder:before {
+.content-holder:after {
   content: "";
   display: block;
 }
 
 footer, .content-holder:after {
   height: 2em; 
-}
-
-shop-header, .content-holder:before {
-  height: 4em; 
 }
 
 </style>

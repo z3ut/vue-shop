@@ -5,8 +5,8 @@
         <img :src="item.imageSmallUrl" alt="item image">
       </div>
       <div class="description">
-        {{item.name}}<br>
-        {{item.price}}р
+        <span class="item-name">{{item.name}}</span><br>
+        <span class="item-price">{{item.price}}р</span>
       </div>
     </div>
   </router-link>
@@ -29,9 +29,13 @@ export default {
   width: 10em;
   height: 20em;
   float: left;
-  margin: 1em;
-  background-color: $catalog-item-color;
+  margin: .5em;
+  background-color: white;
   color: $catalog-item-text-color;
+
+  &:hover {
+    box-shadow: 0 .2em .4em #CCC;
+  }
 }
 
 .img-wrapper {
@@ -46,6 +50,14 @@ export default {
 
 .description {
   margin: .3em;
+
+  .item-name {
+    font-size: 1.2em;
+  }
+
+  .item-price {
+    font-size: 1.1em;
+  }
 }
 
 a {
