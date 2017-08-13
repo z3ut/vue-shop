@@ -118,7 +118,7 @@ img {
 
 .description {
   text-align: justify;
-  white-space: pre-wrap;
+  white-space: pre-line;
 }
 
 </style>
